@@ -11,11 +11,16 @@
 </head>
 
 <header>
-    <section>
-        <h1>Portfolio</h1>
+    <section class="heading">
+        <div>
+            <button class="nav-btn">
+                <img src="./images/navButton.png">
+            </button>
+            <h1>Portfolio</h1>
+        </div>
         <h2>Hi, It’s Théophile Seyrig</h2>
         <p>Designer from Porto, Portugal</p>
-        <a href="#">Designer from Porto, Portugal</a>
+        <a href="#">Latest works</a>
     </section>
 </header>
 
@@ -28,7 +33,7 @@
             tellus, in rutrum augue. Pellentesque senectus risus consectetur
             et sed purus sed. Consectetur adipiscing elit. Egestas porttitor
             nulla nulla egestas odio pharetra egestas aliquet mollis.
-
+            <br> <br>
             Arcu, sed nisi, mi, arcu libero phasellus tincidunt. Rhoncus,
             diam penatibus aliquet tellus, in rutrum augue. Pellentesque
             senectus risus consectetur et sed purus sed. Consectetur
@@ -39,29 +44,44 @@
     </section>
     <section class="skills">
         <h2>Skills</h2>
-        <img src="">
-        <section>
-            <p>Profile</p>
-            <p>UI / UX Engineer, Front-end Developer</p>
+        <div class="skills-content">
             <div>
-                <p>Front-end Dev</p>
-                <div></div>
-                <p>Tools</p>
-                <p>HTML, CSS, JS, Bootstrap, React</p>
+                <img src="./images/profilePicture.png">
             </div>
             <div>
-                <p>UI Design</p>
-                <div></div>
-                <p>Tools</p>
-                <p>Adobe PS, AI, XD, Figma, InVision</p>
+                <table>
+                    <tr>
+                        <td class="profile skill-table-header">Profile</td>
+                        <td class="profile">UI / UX Engineer, Front-end Developer</td>
+                    </tr>
+                    <tr>
+                        <td class="skill-table-progress skill-table-header">Front-end Dev</td>
+                        <td class="skill-table-progress"><progress min="0" max="100" value="63" /></td>
+                    </tr>
+                    <tr>
+                        <td class="skill-table-tools skill-table-header">Tools</td>
+                        <td class="skill-table-tools">HTML, CSS, JS, Bootstrap, React</td>
+                    </tr>
+                    <tr>
+                        <td class="skill-table-progress skill-table-header">UI Design</td>
+                        <td class="skill-table-progress"><progress min="0" max="100" value="77" /></td>
+                    </tr>
+                    <tr>
+                        <td class="skill-table-tools skill-table-header">Tools</td>
+                        <td class="skill-table-tools">Adobe PS, AI, XD, Figma, InVision</td>
+                    </tr>
+                    <tr>
+                        <td class="skill-table-progress skill-table-header">UX Research</td>
+                        <td class="skill-table-progress"><progress min="0" max="100" value="85" /></td>
+                    </tr>
+                    <tr>
+                        <td class="skill-table-tools skill-table-header">Tools</td>
+                        <td class="skill-table-tools">Paper, Pen, Balsamiq</td>
+                    </tr>
+                </table>
             </div>
-            <div>
-                <p>UX Research</p>
-                <div></div>
-                <p>Tools</p>
-                <p>Paper, Pen, Balsamiq</p>
-            </div>
-        </section>
+        </div>
+
     </section>
     <section class="portfolio">
         <h2>Portfolio</h2>
@@ -71,31 +91,43 @@
             Ac dictum nibh nam odio cursus id. Diam massa semper a tincidunt
             cursus ultricies lectus eget urna.
         </p>
-        <section>
-            <img src="">
-            <img src="">
-            <img src="">
-            <img src="">
-        </section>
-        <section>
-            <h2>Get inTouch</h2>
-            <nav>
-                <a href="#">Dribbble</a>
-                <a href="#">LinkedIn</a>
-                <a href="#">Behance</a>
-                <a href="#">Facebook</a>
-                <a href="#">CodePen</a>
-                <a href="#">Instagram</a>
-                <a href="#">GitHub</a>
-                <a href="#">Twitter</a>
-                <a href="#">Medium</a>
-            </nav>
-            <p>
-                seyrig@mailme.com
-                <br>
-                + 55 6645 665544
-            </p>
-        </section>
+        <div>
+            <div class="row">
+                <div class="column">
+                    <img class="river-boats" src="./images/riverWithBoats.png">
+                    <img class="river" src="./images/river.png">
+                </div>
+                <div class="column">
+                    <img class="bridge" src="./images/luisBridge.png">
+                    <img class="balcony" src="./images/headerBg.png">
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+    <section class="nav-section">
+        <h2>Get inTouch</h2>
+        <nav>
+            <a href="#">Dribbble</a>
+            <a href="#">Behance</a>
+            <a href="#">CodePen</a>
+            <a href="#">GitHub</a>
+            <a href="#">Medium</a>
+            <a href="#">LinkedIn</a>
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">Twitter</a>
+        </nav>
+        <footer>
+            <div class="contacts">
+                <p class="email">seyrig@mailme.com</p>
+                <p class="number">+ 55 6645 665544</p>
+            </div>
+            <button class="go-up-btn">
+                <img src="./images/upButton.png" alt="">
+            </button>
+        </footer>
     </section>
 </body>
 
